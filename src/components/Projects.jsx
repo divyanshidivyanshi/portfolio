@@ -1,5 +1,6 @@
 import hotelImg from "../assets/front page.png";
 import auctionImg from "../assets/auction.png";
+import mernmartImg from "../assets/mernmart.png";
 
 function Projects() {
   return (
