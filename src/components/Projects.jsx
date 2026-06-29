@@ -84,25 +84,45 @@ function Projects() {
   Live Demo
 </a>
   </div>
+  <div className="bg-slate-800 p-8 rounded-2xl shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-2 transition duration-300">
+
+  <img
+    src={mernmartImg}
+    alt="MERNMART"
+    className="w-full h-64 object-cover rounded-xl mb-6"
+  />
+
+  <h3 className="text-2xl font-bold mb-4">
+    MERNMART
+  </h3>
+
+  <p className="text-gray-300">
+    A full-stack e-commerce application built using the MERN stack.
+    Features include user authentication, product management,
+    shopping cart, order placement, and an admin dashboard.
+  </p>
+
   <div className="mt-6 flex gap-4">
     <a
-  href="https://github.com/divyanshidivyanshi/mernmart"
-  target="_blank"
-  rel="noreferrer"
-  className="bg-cyan-400 text-black px-4 py-2 rounded"
->
-  GitHub
-</a>
-<a
-  href="https://mernmart-ochre.vercel.app/"
-  target="_blank"
-  rel="noreferrer"
-  className="border border-cyan-400 px-4 py-2 rounded"
->
-  Live Demo
-</a>
+      href="https://github.com/divyanshidivyanshi/mernmart"
+      target="_blank"
+      rel="noreferrer"
+      className="bg-cyan-400 text-black px-4 py-2 rounded"
+    >
+      GitHub
+    </a>
+
+    <a
+      href="https://mernmart-frontend.vercel.app/"
+      target="_blank"
+      rel="noreferrer"
+      className="border border-cyan-400 px-4 py-2 rounded"
+    >
+      Live Demo
+    </a>
   </div>
 
+</div>
 </div>
     </section>
   );
