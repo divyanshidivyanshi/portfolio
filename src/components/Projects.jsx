@@ -84,6 +84,24 @@ function Projects() {
   Live Demo
 </a>
   </div>
+  <div className="mt-6 flex gap-4">
+    <a
+  href="https://github.com/divyanshidivyanshi/mernmart"
+  target="_blank"
+  rel="noreferrer"
+  className="bg-cyan-400 text-black px-4 py-2 rounded"
+>
+  GitHub
+</a>
+<a
+  href="https://mernmart-ochre.vercel.app/"
+  target="_blank"
+  rel="noreferrer"
+  className="border border-cyan-400 px-4 py-2 rounded"
+>
+  Live Demo
+</a>
+  </div>
 
 </div>
     </section>
